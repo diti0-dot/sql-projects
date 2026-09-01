@@ -18,7 +18,7 @@ FROM ecommerce_retail_transactions_raw;
 ```
 
 **Answer:**
-<img width="87" height="20" alt="image" src="https://github.com/user-attachments/assets/683ae992-4c5e-4931-a132-32b912118461" />
+<img width="260" height="59" alt="image" src="https://github.com/user-attachments/assets/683ae992-4c5e-4931-a132-32b912118461" />
 
 > **11810** unique orders and **3368** unique customers.
 
