@@ -37,7 +37,7 @@ GROUP BY Order_Status;
 ```
 
 **Answer:**
-<img width="166" height="94" alt="image" src="https://github.com/user-attachments/assets/df45e368-7e5f-4742-b09b-d944ecfa3d84" />
+<img width="249" height="141" alt="image" src="https://github.com/user-attachments/assets/df45e368-7e5f-4742-b09b-d944ecfa3d84" />
 
 ---
 
@@ -58,7 +58,7 @@ FROM ecommerce_retail_transactions_raw;
 ```
 
 **Answer:**
-<img width="149" height="36" alt="image" src="https://github.com/user-attachments/assets/c93ca84f-b83e-4227-bd92-6059356f46dd" />
+<img width="224" height="54" alt="image" src="https://github.com/user-attachments/assets/c93ca84f-b83e-4227-bd92-6059356f46dd" />
 
 > **54.80%** of orders were successfully delivered.
 
@@ -80,7 +80,8 @@ FROM (
 ```
 
 **Answer:**
-<img width="104" height="36" alt="image" src="https://github.com/user-attachments/assets/9c7c89d6-b415-4f80-8c43-a71c5949136e" />
+<img width="156" height="54" alt="image" src="https://github.com/user-attachments/assets/9c7c89d6-b415-4f80-8c43-a71c5949136e" />
+
 
 > **1945** customers made more than one delivered order.
 
@@ -111,7 +112,7 @@ FROM order_totals;
 ```
 
 **Answer:**
-<img width="118" height="37" alt="image" src="https://github.com/user-attachments/assets/a6348741-a01b-44c0-9bd0-11c5bee69ba6" />
+<img width="177" height="56" alt="image" src="https://github.com/user-attachments/assets/a6348741-a01b-44c0-9bd0-11c5bee69ba6" />
 
 > The average delivered order value is **$119.03**.
 
@@ -135,7 +136,7 @@ ORDER BY customer_revenue DESC;
 ```
 
 **Answer:**
-<img width="158" height="165" alt="image" src="https://github.com/user-attachments/assets/c0c0fedd-7cfa-4ea0-85eb-43c8e903a051" />
+<img width="237" height="248" alt="image" src="https://github.com/user-attachments/assets/c0c0fedd-7cfa-4ea0-85eb-43c8e903a051" />
 
 > **CUST00996** generated the highest revenue at **$1992.47**.
 
@@ -156,7 +157,7 @@ ORDER BY total_units_sold DESC;
 ```
 
 **Answer:**
-<img width="173" height="173" alt="image" src="https://github.com/user-attachments/assets/3409759c-2c0f-4540-9b47-c6fd45b19845" />
+<img width="260" height="260" alt="image" src="https://github.com/user-attachments/assets/3409759c-2c0f-4540-9b47-c6fd45b19845" />
 
 > **Kids Storybook** was the best-selling product with **484 units sold**.
 
@@ -180,7 +181,7 @@ ORDER BY product_revenue DESC;
 ```
 
 **Answer:**
-<img width="168" height="170" alt="image" src="https://github.com/user-attachments/assets/57095428-93e0-4285-8da8-d4dd88aa3320" />
+<img width="252" height="255" alt="image" src="https://github.com/user-attachments/assets/57095428-93e0-4285-8da8-d4dd88aa3320" />
 
 > **Smartwatch** generated the highest revenue at **$30246.02**.
 
@@ -215,7 +216,7 @@ ORDER BY return_rate_percent DESC;
 
 **Answer:**
 
-<img width="321" height="174" alt="image" src="https://github.com/user-attachments/assets/538d4e83-392a-446f-a635-93125cb0c14b" />
+<img width="482" height="261" alt="image" src="https://github.com/user-attachments/assets/538d4e83-392a-446f-a635-93125cb0c14b" />
 
 > **Webcam** had the highest return rate at **11.38%**.
 
@@ -236,7 +237,7 @@ WHERE Order_Status = 'Delivered';
 ```
 
 **Answer:**
-<img width="104" height="35" alt="image" src="https://github.com/user-attachments/assets/c7c7c5cd-fca9-44fa-8718-2f5ca57832df" />
+<img width="156" height="53" alt="image" src="https://github.com/user-attachments/assets/c7c7c5cd-fca9-44fa-8718-2f5ca57832df" />
 
 > Total delivered revenue was **$770333.42**.
 
@@ -260,7 +261,7 @@ ORDER BY country_revenue DESC;
 ```
 
 **Answer:**
-<img width="200" height="110" alt="image" src="https://github.com/user-attachments/assets/32d639e1-c829-4deb-ba95-95d180590ed7" />
+<img width="300" height="165" alt="image" src="https://github.com/user-attachments/assets/32d639e1-c829-4deb-ba95-95d180590ed7" />
 
 > **UAE** generated the highest revenue at **$118320.68**.
 
@@ -284,7 +285,7 @@ ORDER BY category_revenue DESC;
 ```
 
 **Answer:**
-<img width="176" height="121" alt="image" src="https://github.com/user-attachments/assets/a73a216a-0b94-4474-a9df-7e8adeb9c719" />
+<img width="264" height="182" alt="image" src="https://github.com/user-attachments/assets/a73a216a-0b94-4474-a9df-7e8adeb9c719" />
 
 > **Electronics** was the highest-revenue category, generating **$205476.02**.
 
@@ -309,8 +310,7 @@ ORDER BY order_year;
 
 **Answer:**
 
-> <img width="154" height="60" alt="image" src="https://github.com/user-attachments/assets/e78462fc-506c-4203-9ff6-ea45ddc28526" />
-
+<img width="231" height="90" alt="image" src="https://github.com/user-attachments/assets/e78462fc-506c-4203-9ff6-ea45ddc28526" />
 
 **Insight:**
 
@@ -336,7 +336,7 @@ ORDER BY Discount_Percent;
 
 **Answer:**
 
-> <img width="245" height="100" alt="image" src="https://github.com/user-attachments/assets/abbce914-e407-42c1-a911-fda020cfbf15" />
+<img width="368" height="150" alt="image" src="https://github.com/user-attachments/assets/abbce914-e407-42c1-a911-fda020cfbf15" />
 
 **Insight:**
 
@@ -359,13 +359,12 @@ WHERE Order_Status IN ('Cancelled', 'Returned');
 ```
 
 **Answer:**
-<img width="101" height="35" alt="image" src="https://github.com/user-attachments/assets/dae719b7-0fe9-462c-951a-2132a6925be7" />
+<img width="152" height="53" alt="image" src="https://github.com/user-attachments/assets/dae719b7-0fe9-462c-951a-2132a6925be7" />
 
 > Cancelled and returned orders represented approximately **$252733.45** in potential revenue.
 
 **Insight:**
 
 > This provides an estimate of the transaction value associated with unsuccessful orders and can help identify the potential financial impact of cancellations and returns.
-
 
 
